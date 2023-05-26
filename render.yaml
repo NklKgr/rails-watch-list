@@ -1,5 +1,5 @@
 databases:
-  - name: watch-list
+  - name: nkl-watch-list-rails-render
     user: nk
     plan: free
 
