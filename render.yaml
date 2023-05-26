@@ -1,5 +1,6 @@
 databases:
   - name: nkl-watch-list-rails-render
+    databaseName: nkl-watch-list-rails-render
     user: nk
     plan: free
 
