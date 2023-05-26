@@ -1,7 +1,7 @@
 databases:
-  - name: watchList
+  - name: watchlist
     plan: free
-    databaseName: watchList
+    databaseName: watchlist
     user: nk
 
 services:
