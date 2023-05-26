@@ -1,6 +1,5 @@
 databases:
   - name: watchlist
-    plan: free
     databaseName: watchlist
     user: nk
 
