@@ -2,7 +2,7 @@ databases:
   - name: watchList
     plan: free
     databaseName: watchList
-    user: watchList
+    user: nk
 
 services:
   - type: web
