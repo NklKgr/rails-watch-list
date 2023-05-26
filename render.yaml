@@ -1,7 +1,7 @@
 databases:
-  - name: nkl-watch-list-rails-render
-    databaseName: myDbWatchList
-    user: nk
+  - name: mysite
+    databaseName: mysite
+    user: mysite
     plan: free
 
 services:
