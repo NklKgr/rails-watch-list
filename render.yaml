@@ -1,8 +1,8 @@
 databases:
   - name: watchList
+    plan: free
     databaseName: watchList
     user: watchList
-    plan: free
 
 services:
   - type: web
