@@ -5,7 +5,6 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
-require 'faker'
 # require 'json'
 # require 'open-uri'
 
@@ -20,7 +19,7 @@ movies_array.each do |movie|
     overview: movie['overview'],
     poster_url: "https://image.tmdb.org/t/p/w500#{poster}",
     rating: movie['vote_average']
-    
+
   )
   movie.save!
 end
