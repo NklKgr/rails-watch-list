@@ -1,6 +1,6 @@
+Bookmark.destroy_all
 Movie.destroy_all
 List.destroy_all
-
 
 mov_url = 'https://image.tmdb.org/t/p/w500'
 movies = URI.open('https://tmdb.lewagon.com/movie/top_rated').read
